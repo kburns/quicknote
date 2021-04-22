@@ -1,0 +1,40 @@
+\documentclass[letterpaper, 11pt]{article}
+
+% Layout
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{1em}
+
+% Section font
+\usepackage{sectsty}
+\allsectionsfont{\sffamily \bfseries}
+
+% Body font
+\usepackage{lmodern}
+
+% Other imports
+\usepackage{graphicx}
+\usepackage[colorlinks, allcolors=blue]{hyperref}
+
+% Math definitions
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{braket}
+\numberwithin{equation}{section}
+\BLOCK{include 'math_definitions.tex'}
+
+% Document
+\begin{document}
+
+\lhead{\sffamily \bfseries Keaton Burns}
+\chead{\sffamily \bfseries \VAR{title}}
+\rhead{\sffamily \bfseries \today}
+
+
+
+\end{document}
+

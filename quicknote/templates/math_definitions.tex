@@ -1,0 +1,40 @@
+
+    % Styles
+    \newcommand{\mathup}[1]{\mathrm{#1}}
+    \newcommand{\units}[1]{\; \mathup{#1}}
+    %\renewcommand{\vec}[1]{\underline{#1}}
+    \renewcommand{\vec}[1]{\mathbf{#1}}
+    \newcommand{\uvec}[1]{\vec{e}_{#1}}
+    \newcommand{\tens}[1]{\underline{\underline{#1}}}
+    %\newcommand{\tens}[1]{\mathbfsf{#1}}
+    \newcommand{\chem}[1]{\mathup{#1}}
+    \newcommand{\msym}[1]{\mathup{#1}}
+
+    % Constants
+    \newcommand{\pic}{\msym{\pi}}
+    \newcommand{\ic}{\msym{i}}
+
+    % Orders
+    \newcommand{\Order}[1]{\mathcal{O}\left(#1\right)}
+
+    % Fourier coefficients
+    \newcommand{\F}[1]{\hat{#1}}
+    \newcommand{\WF}[1]{\widehat{#1}}
+
+    % Derivatives
+    \newcommand{\pd}[1]{\partial_{#1}}
+    \newcommand{\diff}[1]{\; \msym{d} #1}
+    \newcommand{\deriv}[2]{\frac{\msym{d} #1}{\msym{d} #2}}
+    \newcommand{\nderiv}[3]{\frac{\msym{d}^{#3} #1}{\msym{d} #2^{#3}}}
+    \newcommand{\pderiv}[2]{\partial_{#2} #1}
+    \newcommand{\npderiv}[3]{\partial^{#3}_{#2} #1}
+
+    % Calculus
+    \newcommand{\grad}[1]{\nabla #1}
+    \newcommand{\dive}[1]{\nabla \cdot #1}
+    \newcommand{\curl}[1]{\nabla \times #1}
+    \newcommand{\lap}[1]{\nabla^2 #1}
+
+    % Definitions
+    \newenvironment{definition}{\begin{quote} \textbf{Definition:}}{\end{quote}}
+    \newenvironment{theorem}{\begin{quote} \textbf{Theorem:}}{\end{quote}}
